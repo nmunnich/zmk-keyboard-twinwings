@@ -20,4 +20,6 @@
 ---
 include:
   - board: twinwings_left
+    snippet: zmk-usb-logging
   - board: twinwings_right
+    snippet: zmk-usb-logging
