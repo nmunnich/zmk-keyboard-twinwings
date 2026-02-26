@@ -1,0 +1,9 @@
+boards:
+  - name: twinwings_left
+    vendor: nmunnich
+    socs:
+      - name: nrf52840
+  - name: twinwings_right
+    vendor: nmunnich
+    socs:
+      - name: nrf52840

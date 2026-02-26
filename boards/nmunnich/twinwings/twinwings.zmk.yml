@@ -1,0 +1,14 @@
+file_format: "1"
+id: twinwings
+name: TwinWings
+type: board
+arch: arm
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - twinwings_left
+  - twinwings_right
