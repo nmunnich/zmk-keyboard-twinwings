@@ -31,7 +31,3 @@
         , <&gpio1 11 GPIO_ACTIVE_HIGH>
         ;
 };
-
-&default_transform {
-    col-offset = <5>;
-};

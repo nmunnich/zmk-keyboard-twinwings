@@ -1,8 +1,7 @@
 # Copyright (c) 2026 Nicolas Munnich
 # SPDX-License-Identifier: MIT
 
-# Enable both USB and BLE
-CONFIG_ZMK_USB=y
+# Enable BLE (No USB on RHS, peripheral)
 CONFIG_ZMK_BLE=y
 
 # Keyboard IDs
