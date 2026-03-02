@@ -49,5 +49,5 @@
 };
 
 &twinwings_wired {
-    detect-gpios = <&gpio1 2 GPIO_ACTIVE_LOW | GPIO_PULL_UP>;
+    detect-gpios = <&gpio1 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 };
