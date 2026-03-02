@@ -24,10 +24,14 @@
         , <&gpio1 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
     col-gpios
-        = <&gpio1 6 GPIO_ACTIVE_HIGH>
-        , <&gpio0 13 GPIO_ACTIVE_HIGH>
-        , <&gpio0 28 GPIO_ACTIVE_HIGH>
+        = <&gpio1 11 GPIO_ACTIVE_HIGH>
         , <&gpio0 3 GPIO_ACTIVE_HIGH>
-        , <&gpio1 11 GPIO_ACTIVE_HIGH>
+        , <&gpio0 28 GPIO_ACTIVE_HIGH>
+        , <&gpio0 13 GPIO_ACTIVE_HIGH>
+        , <&gpio1 6 GPIO_ACTIVE_HIGH>
         ;
+};
+
+&default_transform {
+    col-offset = <3>;
 };
