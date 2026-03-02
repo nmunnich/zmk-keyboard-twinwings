@@ -47,6 +47,18 @@
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
     };
+
+    twinwings_wired: wired_split {
+        compatible = "zmk,wired-split";
+        device = <&uart0>;
+    };
+};
+
+&uart0 {
+    pinctrl-0 = <&uart0_default>;
+    pinctrl-1 = <&uart0_sleep>;
+    pinctrl-names = "default", "sleep";
+    status = "okay";
 };
 
 &reg1 {
